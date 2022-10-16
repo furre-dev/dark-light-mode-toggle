@@ -1,0 +1,28 @@
+:root {
+    --lightmode-background-color: white;
+    --darkmode-background-color: black;
+}
+
+.sun-and-moon-container.light-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--light-background-color);
+}
+
+.sun-and-moon-container.dark-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--darkmode-background-color);
+}
+
+.darkmode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sun-and-moon {
+    width: 10rem;
+}
